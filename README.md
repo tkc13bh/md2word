@@ -1,2 +1,17 @@
-# md2word
-Pandocã‚’ä½¿ã£ã¦Markdownã‚’Wordã«å¤‰æ›ã™ã‚‹ã€‚
+# Markdown2Word
+
+pandoc‚ğg‚Á‚Ämarkdown‚ğword‚É‚·‚éB
+
+word‚É‚·‚éÛ‚Éƒeƒ“ƒvƒŒ[ƒg‚ğg—p‚µ‚Ä‘ÌÙ‚ğ®‚¦‚éB
+
+ƒRƒ}ƒ“ƒh‚ÍˆÈ‰º‚Ì’Ê‚èB
+
+```
+pandoc input.md --reference-doc=custom-reference_md2word.docx -o output.docx
+```
+
+yml‚ğg‚¤‚±‚Æ‚à‚Å‚«‚éB
+
+```
+pandoc -d make.yml
+```

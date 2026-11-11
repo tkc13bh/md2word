@@ -1,0 +1,7 @@
+from: markdown+hard_line_breaks
+to: docx
+output-file: output.docx
+input-files:
+- input.md
+
+reference-doc: custom-reference_md2word.docx
