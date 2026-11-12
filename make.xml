@@ -1,7 +1,12 @@
-from: markdown+hard_line_breaks
+﻿from: markdown+hard_line_breaks
 to: docx
 output-file: output.docx
 input-files:
 - input.md
 
+# カスタムテンプレートの指定
 reference-doc: custom-reference_md2word.docx
+
+# Luaフィルタの指定
+filters:
+  - table-style.lua
